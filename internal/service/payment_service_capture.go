@@ -74,7 +74,9 @@ func (s *PaymentService) captureViaRegistry(input CapturePaymentInput, payment *
 		return nil, ErrPaymentProviderNotSupported
 	}
 
-	if err := capturer.ValidateConfig(channel.ConfigJSON, channel.ChannelType); err != nil {
+	// 第二参数是 interactionMode,不是 channelType。stripe/wechat adapter
+	// 会拒绝任何非法 mode,传 channelType 会导致  一律 ErrConfigInvalid。
+	if err := capturer.ValidateConfig(channel.ConfigJSON, channel.InteractionMode); err != nil {
 		return nil, mapProviderErrorToService(err)
 	}
 
