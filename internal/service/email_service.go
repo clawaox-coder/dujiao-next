@@ -13,12 +13,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/i18n"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/telegramidentity"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/i18n"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/telegramidentity"
 )
 
 // writeStandardHeaders 写入 RFC 5322 要求的通用邮件头（Date、Message-ID、From、To、Subject、MIME-Version）。

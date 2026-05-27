@@ -3,7 +3,7 @@ package dto
 import (
 	"time"
 
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 )
 
 // LoginLogResp 登录日志响应

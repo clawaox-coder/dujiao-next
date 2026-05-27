@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dujiao-next/internal/cache"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/cache"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 
 	"github.com/redis/go-redis/v9"
 )

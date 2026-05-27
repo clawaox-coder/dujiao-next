@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 )
 
 // parseSettingInt 解析设置中的整数值。

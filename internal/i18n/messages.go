@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 	"github.com/gin-gonic/gin"
 )
 

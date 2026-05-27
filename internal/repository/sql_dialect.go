@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 
 	"gorm.io/gorm"
 )

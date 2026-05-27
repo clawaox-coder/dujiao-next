@@ -11,13 +11,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/provider"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/service"
-	upstreamadapter "github.com/dujiao-next/internal/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
+	upstreamadapter "github.com/clawaox-coder/dujiao-next/internal/upstream"
 
 	"github.com/gin-gonic/gin"
 )

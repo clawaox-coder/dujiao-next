@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/dujiao-next/internal/http/handlers/shared"
-	"github.com/dujiao-next/internal/http/response"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/http/handlers/shared"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 
 	"github.com/gin-gonic/gin"
 )

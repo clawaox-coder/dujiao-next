@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 
 	"github.com/google/uuid"
 )

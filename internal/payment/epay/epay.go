@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/payment/common"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/payment/common"
 )
 
 const (

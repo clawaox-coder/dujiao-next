@@ -5,12 +5,12 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/provider"
-	"github.com/dujiao-next/internal/queue"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/queue"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 )
 
 func TestBuildBotNotifyRequestURLReplacesPath(t *testing.T) {

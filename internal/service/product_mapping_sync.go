@@ -8,11 +8,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/dujiao-next/internal/cache"
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/cache"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/upstream"
 
 	"github.com/shopspring/decimal"
 )

@@ -3,9 +3,9 @@ package public
 import (
 	"strconv"
 
-	"github.com/dujiao-next/internal/dto"
-	"github.com/dujiao-next/internal/http/handlers/shared"
-	"github.com/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/dto"
+	"github.com/clawaox-coder/dujiao-next/internal/http/handlers/shared"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
 
 	"github.com/gin-gonic/gin"
 )

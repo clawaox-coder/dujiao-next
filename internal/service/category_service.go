@@ -3,8 +3,8 @@ package service
 import (
 	"strconv"
 
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 )
 
 // CategoryService 分类业务服务

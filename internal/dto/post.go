@@ -3,7 +3,7 @@ package dto
 import (
 	"time"
 
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 )
 
 // PostResp 文章/公告公共响应

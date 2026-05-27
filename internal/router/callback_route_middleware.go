@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/dujiao-next/internal/constants"
-	publichandlers "github.com/dujiao-next/internal/http/handlers/public"
-	upstreamhandlers "github.com/dujiao-next/internal/http/handlers/upstream"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	publichandlers "github.com/clawaox-coder/dujiao-next/internal/http/handlers/public"
+	upstreamhandlers "github.com/clawaox-coder/dujiao-next/internal/http/handlers/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

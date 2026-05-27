@@ -8,7 +8,7 @@ import (
 	"github.com/hibiken/asynq"
 	"go.uber.org/zap"
 
-	"github.com/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
 )
 
 type taskHandler func(context.Context, *asynq.Task) error

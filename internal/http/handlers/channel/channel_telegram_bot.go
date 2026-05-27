@@ -3,8 +3,8 @@ package channel
 import (
 	"time"
 
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

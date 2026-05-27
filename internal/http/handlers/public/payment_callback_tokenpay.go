@@ -6,8 +6,8 @@ import (
 	"io"
 	"strings"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/http/handlers/shared"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/http/handlers/shared"
 
 	"github.com/gin-gonic/gin"
 )

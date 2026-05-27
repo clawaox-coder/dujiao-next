@@ -7,11 +7,11 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/http/handlers/shared"
-	"github.com/dujiao-next/internal/http/response"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/http/handlers/shared"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 )
 
 // AffiliateProfileStatusRequest 返利用户状态更新请求

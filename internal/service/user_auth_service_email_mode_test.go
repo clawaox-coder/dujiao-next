@@ -3,8 +3,8 @@ package service
 import (
 	"testing"
 
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/telegramidentity"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/telegramidentity"
 )
 
 func TestBuildTelegramPlaceholderEmail(t *testing.T) {

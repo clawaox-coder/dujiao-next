@@ -4,7 +4,7 @@ import (
 	"context"
 	"testing"
 
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 )
 
 type fakeProvider struct{ typ string }

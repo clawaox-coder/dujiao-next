@@ -3,10 +3,10 @@ package service
 import (
 	"strings"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/queue"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/telegramidentity"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/queue"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/telegramidentity"
 )
 
 // enqueueOrderStatusEmailTaskIfEligible 根据订单接收邮箱策略决定是否入队状态邮件任务。

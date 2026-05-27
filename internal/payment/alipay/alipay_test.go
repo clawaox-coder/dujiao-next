@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 )
 
 func TestParseAndValidateConfig(t *testing.T) {

@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/upstream"
 
 	"github.com/gin-gonic/gin"
 )

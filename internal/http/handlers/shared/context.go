@@ -1,7 +1,7 @@
 package shared
 
 import (
-	"github.com/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
 
 	"github.com/gin-gonic/gin"
 )

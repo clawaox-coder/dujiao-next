@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/cache"
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/crypto"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/cache"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/crypto"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 
 	"github.com/pquerna/otp/totp"
 	"github.com/redis/go-redis/v9"

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/upstream"
 )
 
 // BatchUpstreamProductImportOutcome 单个商品批量导入结果（供 handler 组装响应）

@@ -7,13 +7,13 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/dujiao-next/internal/admincmd"
-	"github.com/dujiao-next/internal/app"
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/version"
-	"github.com/dujiao-next/internal/web"
+	"github.com/clawaox-coder/dujiao-next/internal/admincmd"
+	"github.com/clawaox-coder/dujiao-next/internal/app"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/version"
+	"github.com/clawaox-coder/dujiao-next/internal/web"
 
 	"github.com/gin-gonic/gin"
 )
@@ -29,7 +29,7 @@ const (
 )
 
 func main() {
-	// admin 子命令短路：./dujiao-api admin <subcommand>
+	// admin 子命令短路：./sookauto-api admin <subcommand>
 	// 在 banner / web 提示 / migrate / default admin / app.Run 之前处理，
 	// 避免运维操作时打印一堆无关日志。
 	if len(os.Args) >= 2 && os.Args[1] == "admin" {
@@ -114,20 +114,17 @@ func main() {
 
 func printStartupBanner() {
 	fmt.Println(ansiBrightMag + "╔══════════════════════════════════════════════════════════════════════╗" + ansiReset)
-	fmt.Println(ansiBrightMag + "║                      🚀 Dujiao-Next API 启动中                      ║" + ansiReset)
+	fmt.Println(ansiBrightMag + "║                      🚀 SookAuto API 启动中                         ║" + ansiReset)
 	fmt.Println(ansiBrightMag + "╚══════════════════════════════════════════════════════════════════════╝" + ansiReset)
-	fmt.Println(ansiCyan + "██████╗ ██╗   ██╗     ██╗ █████╗  ██████╗      ███╗   ██╗███████╗██╗  ██╗████████╗" + ansiReset)
-	fmt.Println(ansiCyan + "██╔══██╗██║   ██║     ██║██╔══██╗██╔═══██╗     ████╗  ██║██╔════╝╚██╗██╔╝╚══██╔══╝" + ansiReset)
-	fmt.Println(ansiCyan + "██║  ██║██║   ██║     ██║███████║██║   ██║     ██╔██╗ ██║█████╗   ╚███╔╝    ██║   " + ansiReset)
-	fmt.Println(ansiCyan + "██║  ██║██║   ██║██   ██║██╔══██║██║   ██║     ██║╚██╗██║██╔══╝   ██╔██╗    ██║   " + ansiReset)
-	fmt.Println(ansiCyan + "██████╔╝╚██████╔╝╚█████╔╝██║  ██║╚██████╔╝     ██║ ╚████║███████╗██╔╝ ██╗   ██║   " + ansiReset)
-	fmt.Println(ansiCyan + "╚═════╝  ╚═════╝  ╚════╝ ╚═╝  ╚═╝ ╚═════╝      ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝   ╚═╝   " + ansiReset)
+	fmt.Println(ansiCyan + "███████╗ ██████╗  ██████╗ ██╗  ██╗ █████╗ ██╗   ██╗████████╗ ██████╗ " + ansiReset)
+	fmt.Println(ansiCyan + "██╔════╝██╔═══██╗██╔═══██╗██║ ██╔╝██╔══██╗██║   ██║╚══██╔══╝██╔═══██╗" + ansiReset)
+	fmt.Println(ansiCyan + "███████╗██║   ██║██║   ██║█████╔╝ ███████║██║   ██║   ██║   ██║   ██║" + ansiReset)
+	fmt.Println(ansiCyan + "╚════██║██║   ██║██║   ██║██╔═██╗ ██╔══██║██║   ██║   ██║   ██║   ██║" + ansiReset)
+	fmt.Println(ansiCyan + "███████║╚██████╔╝╚██████╔╝██║  ██╗██║  ██║╚██████╔╝   ██║   ╚██████╔╝" + ansiReset)
+	fmt.Println(ansiCyan + "╚══════╝ ╚═════╝  ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝    ╚═╝    ╚═════╝ " + ansiReset)
 	fmt.Println(ansiGreen + ansiBold + "Open Source Repositories" + ansiReset)
-	fmt.Println(ansiBlue + "• Root:    https://github.com/dujiao-next" + ansiReset)
-	fmt.Println(ansiBlue + "• API:     https://github.com/dujiao-next/dujiao-next" + ansiReset)
-	fmt.Println(ansiBlue + "• User:    https://github.com/dujiao-next/user" + ansiReset)
-	fmt.Println(ansiBlue + "• Admin:   https://github.com/dujiao-next/admin" + ansiReset)
-	fmt.Println(ansiBlue + "• Official:https://github.com/dujiao-next/document" + ansiReset)
+	fmt.Println(ansiBlue + "• Root:    https://github.com/clawaox-coder" + ansiReset)
+	fmt.Println(ansiBlue + "• API:     https://github.com/clawaox-coder/dujiao-next" + ansiReset)
 	fmt.Println(ansiGreen + "Version: " + version.Version + ansiReset)
 	fmt.Println(ansiDim + "--------------------------------------------------------------" + ansiReset)
 }
@@ -145,7 +142,7 @@ func isWeakSecret(secret string) bool {
 	return false
 }
 
-// runAdminSubcommand 处理 ./dujiao-api admin <subcommand>，仅初始化 DB
+// runAdminSubcommand 处理 ./sookauto-api admin <subcommand>，仅初始化 DB
 // 后委托给 internal/admincmd 包，不启动 HTTP / worker / web 等服务。
 func runAdminSubcommand(args []string) {
 	cfg := config.Load()

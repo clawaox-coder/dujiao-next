@@ -5,10 +5,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/dujiao-next/internal/constants"
-	cryptoutil "github.com/dujiao-next/internal/crypto"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	cryptoutil "github.com/clawaox-coder/dujiao-next/internal/crypto"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 	"gorm.io/gorm"
 )
 

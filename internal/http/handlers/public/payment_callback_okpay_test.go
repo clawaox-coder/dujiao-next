@@ -10,12 +10,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/models"
-	paymentprovider "github.com/dujiao-next/internal/payment/provider"
-	"github.com/dujiao-next/internal/provider"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	paymentprovider "github.com/clawaox-coder/dujiao-next/internal/payment/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/gin-gonic/gin"
 	"github.com/glebarez/sqlite"

@@ -1,4 +1,4 @@
-module github.com/dujiao-next
+module github.com/clawaox-coder/dujiao-next
 
 go 1.25.3
 

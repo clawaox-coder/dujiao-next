@@ -14,8 +14,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 	"github.com/golang-jwt/jwt/v5"
 )
 

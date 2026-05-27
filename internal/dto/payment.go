@@ -3,8 +3,8 @@ package dto
 import (
 	"time"
 
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 )
 
 // CreatePaymentResp 创建支付响应

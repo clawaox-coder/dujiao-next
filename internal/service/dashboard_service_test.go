@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 )
 
 type dashboardServiceRepoStub struct {

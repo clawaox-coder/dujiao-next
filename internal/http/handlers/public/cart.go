@@ -3,11 +3,11 @@ package public
 import (
 	"errors"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/dto"
-	"github.com/dujiao-next/internal/http/handlers/shared"
-	"github.com/dujiao-next/internal/http/response"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/dto"
+	"github.com/clawaox-coder/dujiao-next/internal/http/handlers/shared"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

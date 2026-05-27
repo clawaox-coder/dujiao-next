@@ -1,6 +1,6 @@
-# Dujiao-Next API
+# SookAuto API
 
-Dujiao-Next API is the backend service for the Dujiao-Next ecosystem. It provides public APIs, user/auth APIs, order and payment workflows, and admin APIs.
+SookAuto API is the backend service for the SookAuto ecosystem. It provides public APIs, user/auth APIs, order and payment workflows, and admin APIs.
 
 ## Tech Stack
 
@@ -26,6 +26,6 @@ The default health check endpoint is:
 
 - `GET /health`
 
-## Online Documentation
+## Repository
 
-- https://dujiao-next.com
+- https://github.com/clawaox-coder/dujiao-next

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
 )
 
 func TestUploadServiceSaveFileAllowsArchiveForTelegramScene(t *testing.T) {

@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dujiao-next/internal/authz"
+	"github.com/clawaox-coder/dujiao-next/internal/authz"
 
 	"github.com/casbin/casbin/v3/util"
 )

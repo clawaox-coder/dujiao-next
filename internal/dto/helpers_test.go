@@ -1,7 +1,7 @@
 package dto
 
 import (
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 	"github.com/shopspring/decimal"
 )
 

@@ -5,7 +5,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
 	"github.com/gin-gonic/gin"
 )
 

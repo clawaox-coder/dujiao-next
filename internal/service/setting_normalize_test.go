@@ -3,8 +3,8 @@ package service
 import (
 	"testing"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
 )
 
 func TestUpdateOrderSettingNormalized(t *testing.T) {

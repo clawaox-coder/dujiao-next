@@ -3,10 +3,10 @@ package app
 import (
 	"errors"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/provider"
-	"github.com/dujiao-next/internal/router"
-	"github.com/dujiao-next/internal/worker"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/router"
+	"github.com/clawaox-coder/dujiao-next/internal/worker"
 )
 
 // BuildRunner 构建服务运行器

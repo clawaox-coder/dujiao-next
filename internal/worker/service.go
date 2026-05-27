@@ -4,10 +4,10 @@ import (
 	"context"
 	"errors"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/logger"
-	"github.com/dujiao-next/internal/queue"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/queue"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/hibiken/asynq"
 )

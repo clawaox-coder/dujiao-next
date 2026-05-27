@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/http/response"
-	"github.com/dujiao-next/internal/provider"
-	"github.com/dujiao-next/internal/service"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/http/response"
+	"github.com/clawaox-coder/dujiao-next/internal/provider"
+	"github.com/clawaox-coder/dujiao-next/internal/service"
 
 	"github.com/gin-gonic/gin"
 )

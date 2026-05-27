@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
 
 	"go.uber.org/zap"
 )

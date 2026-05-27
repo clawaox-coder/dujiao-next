@@ -3,8 +3,8 @@ package repository
 import (
 	"testing"
 
-	"github.com/dujiao-next/internal/constants"
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/constants"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 
 	"github.com/glebarez/sqlite"
 	"gorm.io/gorm"

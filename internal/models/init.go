@@ -3,7 +3,7 @@ package models
 import (
 	"strings"
 
-	"github.com/dujiao-next/internal/logger"
+	"github.com/clawaox-coder/dujiao-next/internal/logger"
 
 	"golang.org/x/crypto/bcrypt"
 )

@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dujiao-next/internal/cache"
-	"github.com/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/cache"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
 )
 
 // SitemapService 生成 sitemap.xml / robots.txt 内容

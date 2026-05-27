@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/dujiao-next/internal/crypto"
-	"github.com/dujiao-next/internal/models"
-	"github.com/dujiao-next/internal/repository"
-	"github.com/dujiao-next/internal/upstream"
+	"github.com/clawaox-coder/dujiao-next/internal/crypto"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/repository"
+	"github.com/clawaox-coder/dujiao-next/internal/upstream"
 )
 
 // ChannelClientService 渠道客户端业务服务

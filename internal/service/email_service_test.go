@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/dujiao-next/internal/config"
-	"github.com/dujiao-next/internal/i18n"
-	"github.com/dujiao-next/internal/models"
+	"github.com/clawaox-coder/dujiao-next/internal/config"
+	"github.com/clawaox-coder/dujiao-next/internal/i18n"
+	"github.com/clawaox-coder/dujiao-next/internal/models"
 
 	"github.com/shopspring/decimal"
 )
